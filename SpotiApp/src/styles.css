@@ -18,14 +18,46 @@ hr {
     width: 150px;
 }
 
+
+/* CARDS  */
+
+.card{
+    background-color: rgba(34, 34, 34, 0.267);
+    border-color: #272727;
+}
+
 .card-title,
 .card-text {
-    color: black;
+    color: white;
 }
 
 .badge {
     margin-left: 5px;
 }
+
+/* FIN CARDS */
+
+/* BUSQUEDA */
+#busqueda{
+    background-color: #181818;
+    color: #BDBDBD;
+    border: #BDBDBD;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+}
+#busqueda:focus{
+    background-color: #181818;
+    color: #FFFFFF;
+    border: #BDBDBD;
+    border-bottom-right-radius: 18px;
+    border-top-right-radius: 18px;
+    border-bottom-left-radius: 18px;
+    border-top-left-radius: 18px;
+    box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075)inset, 0 0 8px #1db954fa;
+}
+/* FIN BUSQUEDA*/
 
 .btn-outline-success {
     margin-left: 5px;
@@ -84,6 +116,21 @@ nav #navbarSupportedContent ul .active .nav-link {
     background-color: black;
     border-radius: 500px;
 }
+
+/*  Artista Component    */
+.album{
+    padding: 10px;
+}
+.img-rect{
+    width: 100px;
+}
+.separador{
+    border-color: #272727;
+}
+.canciones thead, tbody td{
+    color: #ffffff;
+}
+
 
 
 /* Animaciones */

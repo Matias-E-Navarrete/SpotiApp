@@ -1,1 +1,14 @@
-<p>inicio works!</p>
+
+<div class="alert alert-danger" *ngIf="flagErrors">
+  <h2>Error {{ error.codigo }}</h2>
+  <p>{{ error.mensaje }}</p>
+</div>
+
+<div *ngIf="!flagErrors">
+  <h1>Nuevos Lanzamientos</h1>
+  <hr />
+</div>
+
+<app-loading *ngIf="loading"></app-loading>
+
+<app-tarjeta [items]="nuevosLanzamientos"></app-tarjeta>

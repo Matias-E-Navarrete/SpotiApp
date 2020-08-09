@@ -3,7 +3,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "S:/02-Proyectos/SpotiApp/dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
